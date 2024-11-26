@@ -1,4 +1,29 @@
 * {
-    margin: none;
-    padding: none;
+    margin: 0px;
+    padding: 0px;
+    --dark-tan: #DDCCBD;
+    
+}
+body{
+display: grid;
+}
+header{
+    height: 60px;
+    background-color: var(--dark-tan);
+    display: flex;
+    justify-content: center;
+}
+.header__content{
+    width: 80%;
+    max-width: 1304px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    mix-blend-mode: multiply;
+}
+.nav{
+    display: flex;
+    gap: 12px;
 }
