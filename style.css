@@ -19,7 +19,7 @@ h1{
     position: sticky;
     top: 0;
     height: 5dvh;
-    min-height: 50px;
+    min-height: 60px;
     background-color: var(--dark-tan);
     display: flex;
     justify-content: center;
@@ -56,16 +56,16 @@ h1{
 .btn--bordered{
     font-size: 1.1rem;
     border: 3px solid var(--green);
-    color: var(--green);
+color: var(--green);
 }
 .header__instagram-link{
 height: 31px;
 }
 .hero{
     background-color: var(--gunmetal);
-    height: 92.5dvh;
     display: flex;
     justify-content: center;
+    padding: 12rem 0px;
 }
 .hero__content{
     width: 90%;
