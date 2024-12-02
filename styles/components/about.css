@@ -1,3 +1,13 @@
+.about{
+    padding: 2rem 0px;
+}
+.about__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 about__h1{
     color: var(--gunmetal);
     font-size: 2.618rem;
@@ -7,6 +17,21 @@ about__h1{
     margin-inline: auto
     ;
 }
+
 .about__h1 .h1--fraunces{
 font-size: 3.2rem;
+}
+.about__media-scroller {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+}
+.about__media-element {
+    padding: var(--size-3);
+}
+.about__media-element > * {
+    inline-size: 100%;
 }
