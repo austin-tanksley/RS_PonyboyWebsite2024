@@ -1,0 +1,12 @@
+about__h1{
+    color: var(--gunmetal);
+    font-size: 2.618rem;
+    line-height: 1.2em;
+    width: 90%;
+    max-width: 1304px;
+    margin-inline: auto
+    ;
+}
+.about__h1 .h1--fraunces{
+font-size: 3.2rem;
+}

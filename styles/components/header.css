@@ -1,0 +1,25 @@
+.header{
+    position: sticky;
+    top: 0;
+    height: 5dvh;
+    min-height: 60px;
+    background-color: var(--dark-tan);
+}
+.header__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+.header__logo{
+    mix-blend-mode: multiply;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.header__instagram-link{
+height: 31px;
+}

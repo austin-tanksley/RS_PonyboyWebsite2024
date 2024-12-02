@@ -1,0 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    --light-tan: #F1EDED;
+    --dark-tan: #DDCCBD;
+    --gunmetal: #212121;
+    --green: #6F8D69;
+}
+body{
+    font-family: "Inter", sans-serif;
+}

@@ -1,0 +1,74 @@
+.btn{
+    border: none;
+    background-color: var(--gunmetal);
+    color: var(--light-tan);
+    font-size: 1rem;
+    padding: .618em 1em;
+    border-radius: 2em;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    letter-spacing: -.05em;
+    font-weight: 900;
+}
+.btn--bordered{
+    font-size: 1.1rem;
+    border: 3px solid var(--green);
+color: var(--green);
+}
+h1{
+    font-size: 3.2rem;
+    font-weight: 800;
+    line-height: 1.1em;
+}
+.container{
+    max-width: 1536px;
+    margin-inline: auto;
+    padding: .5rem;
+}
+.hero__content{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+/* DESKTOP FIRST */
+
+/* 2xl */
+@media (max-width: 1536px) {
+    .container{
+        max-width: 1280px;
+    }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 758px;
+    }
+}
+
+/* md */
+@media (max-width: 758px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .container {
+        max-width: 475px;
+    }
+}
+
+/* xs */
+@media (max-width: 475px) {
+    .container{
+        max-width: 100%;
+    }
+}
