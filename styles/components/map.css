@@ -1,0 +1,19 @@
+.map{
+    background-color: var(--gunmetal);
+    padding: 2rem;
+}
+.map__content{
+    display: grid;
+    gap: 2rem;
+
+}
+.h1--fraunces--bold{
+    color: var(--light-tan);
+    font-weight: 500;
+}
+.map__subtext{
+    color: var(--light-tan);
+}
+.map__embed{
+    border-radius: 12px;
+}

@@ -1,5 +1,6 @@
 .header{
     position: sticky;
+    z-index: 1;
     top: 0;
     height: 5dvh;
     min-height: 60px;

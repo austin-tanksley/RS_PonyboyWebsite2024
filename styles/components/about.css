@@ -35,7 +35,7 @@ font-size: 3.8rem;
     margin-bottom: 1rem;
 }
 .carousel-cell{
-    width: calc(1536px*.23);
+    width: 23%;
     padding: 0px .5rem;
 }
 .carousel-cell > img{
@@ -50,7 +50,10 @@ font-size: 3.8rem;
 .flickity-button:hover {
   background: #F90;
 }
-
+.flickity-button:focus {
+    border: none;
+    outline: none;
+}
 .flickity-prev-next-button {
   width: 30px;
   height: 30px;
@@ -67,7 +70,7 @@ font-size: 3.8rem;
 /* xl */
 @media (max-width: 1288px) {
         .carousel-cell{
-        width:  calc(1024px*.28);
+        width:  calc(1024px*.35);
     }
 }
 
