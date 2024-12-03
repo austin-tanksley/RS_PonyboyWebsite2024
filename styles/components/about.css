@@ -44,6 +44,22 @@ font-size: 3.8rem;
     object-fit: cover;
     border-radius: 12px;
 }
+.flickity-button {
+  background: #333;
+}
+.flickity-button:hover {
+  background: #F90;
+}
+
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+/* icon color */
+.flickity-button-icon {
+  fill: white;
+}
 
 /* 2xl */
 /* @media (max-width: 1536px) {} */
