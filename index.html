@@ -8,6 +8,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..00&display=swap');
     </style>
+    <link rel="stylesheet" href="./styles/flickity.css">
     <!-- Stylesheets -->
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/components/header.css">
@@ -30,26 +31,25 @@
     <main>
         <div class="hero">
             <div class="hero__content container">
-                <div class="hero__text">
-                    <h1 class="hero__h1">Welcome to <span class="h1--fraunces">Ponyboy</span>, a modern barbershop <span class="h1--fraunces">in the heart of East Village.</span></h1>
+                <div class="hero__text ">
+                    <h1 class="hero__h1 h1">Welcome to <span class="h1--fraunces">Ponyboy</span>, a modern barbershop <span class="h1--fraunces">in the heart of East Village.</span></h1>
                     <button class="btn btn--bordered"> BOOK NOW </button>
                 </div>
                 <video class="hero__video" src="./assets/video/Ponyboy_video_Compressed.mp4" autoplay loop muted playinline></video>
             </div>
         </div>
         <section class="about">
-            <div class="about__content container">
-                <h1 class="about__h1"><span class="h1--fraunces">We’re all about making everyone feel at home.</span> Whether you want a classic cut or something more trendy, <span class="h1--fraunces">our skilled barbers are here to help.</span> Walk-ins welcome!</h1>
-                <div class="about__media-scroller">
-                    <div class="about__media-element"><img src="./assets/img/img_8.jpg" alt="gallery image"></div>
-                    <div class="about__media-element"><img src="./assets/img/img_5.jpg" alt="gallery image"></div>
-                    <div class="about__media-element"><img src="./assets/img/img_3.jpg" alt="gallery image"></div>
-                    <div class="about__media-element"><img src="./assets/img/img_1.jpg" alt="gallery image"></div>
-                    <div class="about__media-element"><img src="./assets/img/img_2.jpg" alt="gallery image"></div>
-                    <div class="about__media-element"><img src="./assets/img/img_4.jpg" alt="gallery image"></div>
-                    <div class="about__media-element"><img src="./assets/img/img_6.jpg" alt="gallery image"></div>
-                    <div class="about__media-element"><img src="./assets/img/img_7.jpg" alt="gallery image"></div>
-                    <div class="about__media-element"><img src="./assets/img/img_8.jpg" alt="gallery image"></div>
+            <div class="about__content">
+                <h1 class="about__h1 container"><span class="about__h1--fraunces">We’re all about making everyone feel at home.</span> Whether you want a classic cut or something more trendy, <span class="about__h1--fraunces">our skilled barbers are here to help.</span> Walk-ins welcome!</h1>
+                <div class="carousel js-flickity" data-flickity-options='{ "imagesLoaded": true, "wrapAround": true}'">
+                    <div class="carousel-cell"><img src="./assets/img/img_8.jpg" alt="gallery image"></div>
+                    <div class="carousel-cell"><img src="./assets/img/img_5.jpg" alt="gallery image"></div>
+                    <div class="carousel-cell"><img src="./assets/img/img_3.jpg" alt="gallery image"></div>
+                    <div class="carousel-cell"><img src="./assets/img/img_1.jpg" alt="gallery image"></div>
+                    <div class="carousel-cell"><img src="./assets/img/img_2.jpg" alt="gallery image"></div>
+                    <div class="carousel-cell"><img src="./assets/img/img_4.jpg" alt="gallery image"></div>
+                    <div class="carousel-cell"><img src="./assets/img/img_6.jpg" alt="gallery image"></div>
+                    <div class="carousel-cell"><img src="./assets/img/img_7.jpg" alt="gallery image"></div>
                 </div>
                 <button class="btn">BOOK NOW</button>
             </div>
@@ -69,4 +69,5 @@
         </div>
     </footer>
 </body>
+<script src="./JS/flickity.pkgd.min.js"></script>
 </html>
