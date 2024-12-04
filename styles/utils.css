@@ -13,6 +13,7 @@
 .btn--bordered{
     font-size: 1.25rem;
     border: 3px solid var(--green);
+    padding: .618em .5em;
 color: var(--green);
 }
 
