@@ -1,0 +1,15 @@
+.footer{
+    background-color: black;
+}
+
+.rgb-lt-tan{
+    color: var(--light-tan);
+}
+.footer__logo{
+    padding: 2rem 0px;
+}
+.footer__nav{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 0px;
+}
