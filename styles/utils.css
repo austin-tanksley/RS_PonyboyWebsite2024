@@ -11,7 +11,7 @@
     font-weight: 900;
 }
 .btn--bordered{
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     border: 3px solid var(--green);
 color: var(--green);
 }
