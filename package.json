@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "almond.css": "^1.2.2"
+  },
+  "devDependencies": {
+    "vite": "^6.0.2"
   }
 }
