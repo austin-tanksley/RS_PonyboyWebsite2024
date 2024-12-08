@@ -43,7 +43,6 @@ font-size: 3.8rem;
     aspect-ratio: 4/5;
     object-fit: cover;
     border-radius: 12px;
-    box-shadow: var(--shadow-2);
 }
 .flickity-button {
   background: #333;
